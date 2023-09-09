@@ -1,0 +1,115 @@
+@charset "utf-8";
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 6px;
+    padding-top: 0px;
+}
+.primario{
+    padding-left: 10px;
+    text-decoration: none;
+color: rgba(121, 120, 120, 0.911);
+}
+.primario:hover{
+    text-decoration: underline;
+}
+#menu{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(59, 6, 109);
+}
+#menu:hover{
+    transition-duration: 1s;
+    text-decoration: underline;
+     color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+ div{
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+  max-width: 800px;
+    background-color: lightgray;
+ } 
+
+
+
+main > p{
+line-height: 1em;    
+}
+nav{
+    text-align: right;
+}
+h1  img{
+    max-width: 500px;
+    padding: 10px;
+    text-align: right;
+
+}
+aside > p{
+      
+    border-color: rgb(124, 28, 214);
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.363);
+padding: 15px;
+background-color:darkgrey
+}
+aside{
+    font-size: 1.2em;
+    color:rgba(121, 120, 120, 0.911);
+    font: bold;
+
+}
+#link2{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(59, 6, 109);
+
+}
+#link2:hover{
+    transition-duration: 1s;
+    text-decoration: underline;
+     color: blueviolet;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+.titulo{
+     padding: 0px 0px 0px 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font: bold;
+}
+.qualquer{
+    padding: 30px;
+    text-align: center;
+
+}
+footer p{
+     font-size: 1.2em;
+    font: bolder;
+ color:rgba(121, 120, 120, 0.911);
+}
+.lucas{
+    text-align: center;
+    color: rgba(110, 108, 108, 0.671);
+ min-width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(59, 6, 109); ;
+}
+.lucas > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.781);
+}
+.lucas >a:hover{
+    text-decoration: underline;
+    color: rgb(185, 103, 117);
+}
